@@ -11,8 +11,12 @@ import (
 )
 
 func main() {
-    // Find all controllers connected to your machine via USB or Bluetooth
-    controllers := gods4.Find()
+    // Find all controllers connecte
+    //d to your machine via USB or Bluetooth
+    controllers, err := gods4.Find()
+    if err != nil {
+        panic(err)
+    }
     if len(controllers) == 0 {
         panic("No connected DS4 controllers found")
     }
@@ -21,7 +25,7 @@ func main() {
     controller := controllers[0]
 
     // Connect to the controller
-    err := controller.Connect()
+    err = controller.Connect()
     if err != nil {
         panic(err)
     }
