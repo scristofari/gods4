@@ -1,4 +1,6 @@
-github.com/pkg/errors v0.8.0 h1:WdK/asTD0HN+q6hsWO3/vpuAkAr+tw6aNJNDFFf0+qw=
-github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
-github.com/stamp/hid v0.0.0-20190105143849-bc55d7d13ce1 h1:BG7MhC3qshAG6YSA1JiTFdQwXoOSmkAD9jHxfwIwcRM=
-github.com/stamp/hid v0.0.0-20190105143849-bc55d7d13ce1/go.mod h1:8a9qaZSBHmyhaqWfYpMnsvd4paEG6AGdl1TAy+gQkd4=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/sstallion/go-hid v0.14.1 h1:shbZlKqv5fr1KnxwqtLEPGkOoA6OSUWTx9TblegATvc=
+github.com/sstallion/go-hid v0.14.1/go.mod h1:fPKp4rqx0xuoTV94gwKojsPG++KNKhxuU88goGuGM7I=
+golang.org/x/sys v0.15.0 h1:h48lPFYpsTvQJZF4EKyI4aLHaev3CxivZmv7yZig9pc=
+golang.org/x/sys v0.15.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
